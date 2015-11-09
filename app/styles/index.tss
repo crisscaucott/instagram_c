@@ -33,7 +33,7 @@
 	top: "50%"
 }
 
-"#nombreInput":{
+".nombreInput":{
 	width: "320dp",
 	height: "50dp",
 	top:"0px",
@@ -41,7 +41,7 @@
 	color: "#A6A6A6",
 }
 
-"#contrasenaInput":{
+".contrasenaInput":{
 	top:"50dp",
 	left:"20dp",
 	width: "320dp",
@@ -50,7 +50,7 @@
     passwordMask:true   
 }
 
-"#contrasena2Input":{
+".contrasena2Input":{
 	top:"100dp",
 	left:"20dp",
 	width: "320dp",
@@ -75,6 +75,13 @@
 	width:'50%',
 	left:'50%',
 	opacity: 0.3
+}
+
+"#entrarBtn":{
+	top:"100dp",
+	left:"20dp",
+	width: "320dp",
+	height: "50dp",
 }
 
 "Label":{

@@ -1,0 +1,7 @@
+<Alloy>
+	<Window>
+		<View>
+			<Label id="saludos">Bienvenido</Label>
+		</View>
+	</Window>
+</Alloy>

@@ -16,3 +16,15 @@ $.inicioSesionBtn.addEventListener('click', function(e){
 	$.inicioSesionBtn.opacity = 1;
 });
 
+// click en Entrar en Iniciar Sesion
+$.entrarBtn.addEventListener('click', function(e){
+	var nombre = $.nombreSesion.value.trim();
+
+	if(nombre.length > 0)
+	{
+		var jsonData = {'nombre': nombre};
+		var win = Alloy.createController('window2', jsonData).getView();
+		win.open();
+	}	
+});
+

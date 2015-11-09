@@ -10,13 +10,14 @@
 			</View>
 		</View>
 		<View id="registrarseView">
-			<TextField hintText="Nombre" id="nombreInput"></TextField>
-			<TextField hintText="Contrasena" id="contrasenaInput"></TextField>
-			<TextField hintText="Confirmar Contrasena" id="contrasena2Input"></TextField>
+			<TextField hintText="Nombre" class="nombreInput"></TextField>
+			<TextField hintText="Contrasena" class="contrasenaInput"></TextField>
+			<TextField hintText="Confirmar Contrasena" class="contrasena2Input"></TextField>
 		</View>
 		<View id="inicioSesionView">
-			<TextField hintText="Nombre" id="nombreInput"></TextField>
-			<TextField hintText="Contrasena" id="contrasenaInput"></TextField>
+			<TextField hintText="Nombre" class="nombreInput" id="nombreSesion"></TextField>
+			<TextField hintText="Contrasena" class="contrasenaInput" id="passSesion"></TextField>
+			<Button id="entrarBtn">Entrar</Button>
 		</View>
 	</Window>
 </Alloy>
