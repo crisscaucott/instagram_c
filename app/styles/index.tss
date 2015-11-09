@@ -1,0 +1,83 @@
+"Window": {
+	navBarHidden: true
+}
+"#view1":{
+	backgroundImage: "/images/body-background.jpg",
+	height: "50%",
+	width: "100%",
+	top: "0px",
+}
+
+"#registrarseView":{
+	backgroundColor: "#E0E0E0",
+	height: "50%",
+	width: "100%",
+	top:"50%"
+}
+
+"#inicioSesionView":{
+	backgroundColor: "#E0E0E0",
+	visible:"false",
+	height: "50%",
+	width: "100%",
+	top:"50%"
+}
+
+"#insta_logo":{
+	image: "/images/insta_logo_blanco.png",
+	top:"15%"
+}
+
+"#insta_lema":{
+	left: "35dp",
+	top: "50%"
+}
+
+"#nombreInput":{
+	width: "320dp",
+	height: "50dp",
+	top:"0px",
+	left:"20dp",
+	color: "#A6A6A6",
+}
+
+"#contrasenaInput":{
+	top:"50dp",
+	left:"20dp",
+	width: "320dp",
+	height: "50dp",
+    color: "#A6A6A6",  
+    passwordMask:true   
+}
+
+"#contrasena2Input":{
+	top:"100dp",
+	left:"20dp",
+	width: "320dp",
+	height: "50dp",
+    color: "#A6A6A6",  
+    passwordMask:true
+}
+
+"#buttons":{
+	top:"80%"
+}
+
+"#loginBtn":{
+	enabled: true,
+	width:'50%',
+	left:'0dp',
+	backgroundColor: 'transparent',
+}
+
+"#inicioSesionBtn":{
+	backgroundColor: "transparent",
+	width:'50%',
+	left:'50%',
+	opacity: 0.3
+}
+
+"Label":{
+	height: Titanium.UI.SIZE
+
+}
